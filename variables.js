@@ -1,11 +1,17 @@
 "use strict"
 
-var bool = true;
-console.log(typeof bool + " : " + bool);
+var isBool = true;
+console.log(typeof isBool + " : " + isBool);
 console.log("");
 
 var str = 'hello';
 console.log(typeof str + " : " + str);
+console.log("");
+
+var name = 'lower';
+var Name = 'capitalized';
+var NAME = 'upper';
+console.log(name + ", " + Name + ", " + NAME)
 console.log("");
 
 var num = 1.1;
@@ -35,10 +41,10 @@ console.log(typeof obj + " :");
 console.log(obj);
 console.log("");
 
-var dyntype = 1;
-console.log(typeof dyntype + " : " + dyntype);
-dyntype = "one";
-console.log(typeof dyntype + " : " + dyntype);
+var dynType = 1;
+console.log(typeof dynType + " : " + dynType);
+dynType = "one";
+console.log(typeof dynType + " : " + dynType);
 console.log("");
 
 console.log(typeof hoist + " : " + hoist);
